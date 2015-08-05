@@ -1,7 +1,5 @@
 # motion-gallery
 
-# motion-gallery
-
 This simple cgi script allows you to see the last 8 images captured by Motion
 as well as the 'lastsnap'
 
