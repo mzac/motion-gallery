@@ -40,7 +40,7 @@ GRANT SELECT, INSERT, UPDATE, DELETE, DROP, CREATE VIEW, INDEX, EXECUTE ON motio
 flush privileges;
 ```
 
-In your motion setup, you will need to add lines such as this to your ~~motion.conf~~ to allow motion to talk to the database
+In your motion setup, you will need to add lines such as this to your _motion.conf_ to allow motion to talk to the database
 
 ```
 sql_log_picture on
@@ -59,7 +59,7 @@ database_port 3306
 
 Make sure to restart your motion daemon after the change to the config file.
 
-For your web server to be able to execute the script, you will need to give permissions to execute in the directory where you put the ~~index.cgi~~ file
+For your web server to be able to execute the script, you will need to give permissions to execute in the directory where you put the _index.cgi_ file
 
 This is an example for Apache:
 
